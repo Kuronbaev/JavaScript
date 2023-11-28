@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#header {
+  padding: 30px 0;
+  background: #000;
+  color: white;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-nav a {
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+  margin: 0px 40px;
+}
+.header-search input {
+  padding: 12px 40px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid white;
+  background: none;
+}
+
+.header-search button {
+  padding: 12px 30px;
+  border-radius: 10px;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  font-weight: 800;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+img {
+  width: 100%;
+  background: none;
+}
+.box {
+  width: 230px;
+  padding: 30px;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  height: 400px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  gap: 13px;
+}
+#hero {
+  margin: 100px 0;
+}
+#hiro {
+  margin: 100px 0;
+}
+.hiro {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  gap: 13px;
+}
+
+#horo {
+  margin: 100px 0;
+}
+.horo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 13px;
+}
+
+.sel {
+  background-color: transparent;
+  border: 1px solid white;
+  outline: none;
+  color: white;
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.opt {
+  background-color: transparent;
+  color: black;
+  height: 20px;
+}
+input {
+  color: white;
+}
+
+.boxx {
+  width: 230px;
+  padding: 30px;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  height: 400px;
+}
+.boxs {
+  width: 230px;
+  padding: 30px;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  height: 400px;
+}
+
+.dog {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.boc {
+  width: 100px;
+  height: 200px;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+.dogs {
+  width: 120px;
+  height: 30px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  background-color: transparent;
+  margin-left: 10px;
+  transition: 0.5s;
+  color: blue;
+}
+
+.dogs:hover {
+  background-color: blue;
+  color: white;
+}
+
+.sell {
+  background-color: transparent;
+  width: 130px;
+  height: 30px;
+  outline: none;
+  color: white;
+}
+.sell option {
+  color: black;
+}
+.parod {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}

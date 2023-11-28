@@ -1,0 +1,112 @@
+body {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-image: url(https://media.istockphoto.com/id/1475837467/photo/aerial-view-of-speedboats-near-an-island-in-andaman-sea.jpg?s=2048x2048&w=is&k=20&c=mE92c5tD6v605MMTqhpR4YKdEPMtHTyGPOzZamC8ad8=)
+    no-repeat;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 700px;
+  flex-wrap: wrap;
+  margin: 0auto;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  background: #3a3737;
+  margin: 2px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.circle:hover {
+  transition: 0.5s;
+}
+
+.form {
+  width: 500px;
+  height: 500px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 100px 10px white;
+  border: 2px solid white;
+  border-radius: 20px;
+  display: flex;
+}
+.email {
+  background-color: transparent;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  outline: 0;
+  color: white;
+}
+.pass {
+  background-color: transparent;
+  border: 1px solid white;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  outline: 0;
+
+}
+
+/* .add {
+  border: 1px solid white;
+  background-color: transparent;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+} */
+
+.add {
+  margin-top: 20px;
+  width: 130px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-weight: 600;
+  gap: 8px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+  position: relative;
+  overflow: hidden;
+  transition-duration: 0.3s;
+}
+
+.add::before {
+  content: '';
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  transform: translateX(-100%);
+  top: 0;
+  transition-duration: 0.3s;
+  mix-blend-mode: difference;
+}
+
+.add:hover::before {
+  transition-duration: 0.3s;
+  transform: translateX(0);
+  border-radius: 0;
+  border: none;
+}
+
+.add:active {
+  transform: translate(5px, 5px);
+  transition-duration: 0.3s;
+}

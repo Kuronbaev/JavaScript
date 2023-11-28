@@ -1,0 +1,31 @@
+.blog {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border: 1px solid;
+  transition: 0.4s;
+  /* background-size: cover; */
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blogs {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
+}
+
+.blog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.open {
+  width: 200px;
+  height: 2000px;
+  
+}

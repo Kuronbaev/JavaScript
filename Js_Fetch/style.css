@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  font-size: 40px;
+}
+
+.hello {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.names {
+  margin-left: 12700px;
+  display: flex;
+  overflow: scroll;
+}
+.card {
+  width: 300px;
+  height: 500px;
+  background-color: aqua;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+.user {
+  background: transparent;
+  width: 100px;
+}
+.sur {
+  width: 300px;
+}
+
+.block {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 700px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(63, 63, 63);
+}
+
+.naz {
+  font-size: 50px;
+  color: green;
+}
+.cat {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.lor {
+  font-size: 20px;
+  line-height: 1.1;
+}
